@@ -13,6 +13,9 @@ public class jogador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("TURMA 4");
+        if (input.GetKey(KeyCode.Space))
+        {
+            transform.position = transform.position + new Vector3(10.0f, 0.0f, 0.0f)
+        }
     }
 }
