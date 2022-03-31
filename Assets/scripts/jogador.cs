@@ -13,9 +13,21 @@ public class jogador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.D))
         {
-            transform.position = transform.position + new Vector3(10.0f, 0.0f, 0.0f)
+            transform.position = transform.position + new Vector3(0.05f, 0.0f, 0.0f);
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.position = transform.position + new Vector3(0.0f, 0.05f, 0.0f);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.position = transform.position + new Vector3(0.0f, -0.05f, 0.0f);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.position = transform.position + new Vector3(-0.05f, 0.0f, 0.0f);
         }
     }
 }
