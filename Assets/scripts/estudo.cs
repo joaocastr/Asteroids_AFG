@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class jogador : MonoBehaviour
+public class estudo : MonoBehaviour
 {   
     public float velocidade = 5.0f;
     public float rotacao = 2.0f;
