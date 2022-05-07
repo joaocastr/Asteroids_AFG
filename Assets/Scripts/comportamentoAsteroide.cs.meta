@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 52c971bde8da5f44eb1802275e10a783
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - asteroidRb: {instanceID: 0}
+  - projetil: {fileID: 5513082219472967883, guid: 678d6be071ec2ac459cfe15874665e8b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
